@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.trending-app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-grow: 1;
+  }
+}
+
+.trending-container {
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

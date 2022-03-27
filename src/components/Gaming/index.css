@@ -1,0 +1,17 @@
+.gaming-app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+}
+
+.gaming-container {
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
