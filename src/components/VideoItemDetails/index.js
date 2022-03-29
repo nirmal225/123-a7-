@@ -18,9 +18,9 @@ const apiStatusConstants = {
 
 class VideoItemDetails extends Component {
   state = {
-    videoData: [],
     isLikeActive: false,
     isDisLikeActive: false,
+    videoData: [],
     apiStatus: apiStatusConstants.initial,
   }
 
@@ -122,8 +122,6 @@ class VideoItemDetails extends Component {
   }
 
   renderVideoField = isDark => {
-    const {isLikeActive, isDisLikeActive} = this.state
-
     const {videoData} = this.state
     const {
       channel,
